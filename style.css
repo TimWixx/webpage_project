@@ -1,0 +1,10 @@
+body{
+    font-family: Roboto;
+    color: white;
+}
+
+.d1{
+    display: flex;
+    background-color: black;
+    height:100px;
+}
