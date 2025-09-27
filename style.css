@@ -1,10 +1,27 @@
 body{
     font-family: Roboto;
     color: white;
+    background-color: #1F2937;
 }
 
 .d1{
     display: flex;
-    background-color: black;
-    height:100px;
+    height:500px;
+    border: solid white;
+    
+
+}
+
+.hl-container{
+   border: solid grey;
+   align-items: top;
+}
+
+.hero-second{
+    border: solid grey;
+}
+
+.awesomeSB-container{
+
+    border: solid grey;
 }
