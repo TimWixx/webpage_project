@@ -1,27 +1,69 @@
 body{
-    font-family: Roboto;
-    color: white;
-    background-color: #1F2937;
-}
-
-.d1{
+    background-color:#1F2937 ;
     display: flex;
-    height:500px;
-    border: solid white;
-    
-
+    flex-direction: column;
+    font-family: roboto;
 }
-
-.hl-container{
-   border: solid grey;
-   align-items: top;
+.header{
+    display: flex;
+    height: 100px;
+    background-color:#1F2937 ;
+    justify-content: space-around;
 }
-
-.hero-second{
-    border: solid grey;
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;    
 }
-
-.awesomeSB-container{
-
-    border: solid grey;
+a{
+    text-decoration: none;
+    color:#E5E7EB ;
+}
+.logo,.hero{
+    display: flex; 
+    color: #F9FAF8;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 387px;
+    gap: 8px;
+}
+.hero-para{
+    max-width: 400px;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.hero-img{
+    height: 287px;
+    width: 510px;
+}
+.sign-button{
+    padding:8px 16px;
+    border-radius: 8px;
+    align-self: start;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+}
+.heroplusIMG{
+    display: flex;
+    justify-content: center;
+}
+.contentTwo{
+    display: flex;
+    background: #E5E7EB;
+    height:387px;
+}
+.heroTwo{
+    font-size: 36px;
+    font-weight: 900;
+    align-items: center;
 }
