@@ -3,18 +3,21 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto;
+    margin: 0;
 }
 .header{
     display: flex;
     height: 100px;
     background-color:#1F2937 ;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 150px;
 }
 ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
     font-size: 18px;    
+    
 }
 a{
     text-decoration: none;
@@ -60,10 +63,53 @@ a{
 .contentTwo{
     display: flex;
     background: #E5E7EB;
-    height:387px;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .heroTwo{
+    display: flex;
     font-size: 36px;
     font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+     
+    
+}
+.activities{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
+
+.activities-img{
+    width: 195px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 20px 15px;
+}
+.act-desc-container{
+ display: flex;
+ width: 1000px;
+ justify-content: space-between;
+ margin-bottom: 20px;
+
+}
+.act-img-container{
+   display: flex;
+   gap: 40px;
+}
+
+.activities-harvest{
+    padding-left: 33px;
+}
+.activities-explore{
+    padding-left: 45px;
+}
+.activities-fight{
+    padding-left: 30px;
+}
+.activities-market{
+    padding-right:5px ;
+}
+
